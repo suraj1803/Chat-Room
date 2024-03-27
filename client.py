@@ -2,7 +2,7 @@ import socket
 import threading
 
 host = "100.64.65.186"
-port = 9999
+port = 7070
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((host, port))
