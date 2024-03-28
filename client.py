@@ -1,7 +1,8 @@
 import socket
 import threading
 
-host = "100.64.65.186"
+# host = "100.64.65.186"
+host = "192.168.105.152"
 port = 7070
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
