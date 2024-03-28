@@ -20,7 +20,7 @@ def receive():
         message = client_socket.recv(1024).decode()
         print(message)
 
-
+# first sending the name
 name = input("Enter your name: ")
 client_socket.send(name.encode())
 
